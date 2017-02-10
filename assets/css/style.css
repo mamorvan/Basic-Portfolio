@@ -1,0 +1,145 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	max-width: 960px;
+	background-image: url(../images/shattered.png);
+	margin: auto;
+	color: #777777;
+
+
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+
+nav {
+	background-color: #ffffff;
+	height: 70px;
+	border-bottom: 2px solid #cccccc;
+
+}
+
+#logo {
+	background-color: #4aaaa5;
+	width: 200px;
+	padding: 20px;
+	float: left;
+	margin: 6px 0 0 50px;
+	text-align: center;
+	color: #ffffff;
+	}
+
+ul {
+	float: right;
+	padding: 20px;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+nav a:hover {
+	color: #4aaaa5;
+	cursor: pointer;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+
+}
+
+#portfoliolink {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	padding: 0 10px 0 10px;
+}
+
+.main {
+	width: 595px;
+	margin: 20px 20px 20px 50px;
+	float: left;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.main h1 {
+	padding: 20px 0 20px 0;
+	margin: 0 20px 0 20px;
+	border-bottom: 2px solid #cccccc;
+	color: #4aaaa5;
+}
+
+.main p {
+	margin: 20px;
+}
+
+#profilepic {
+	float: left;
+	margin: 20px;
+}
+
+aside {
+	background-color: #ffffff;
+	width: 270px;
+	float: left;
+	text-align: center;
+	margin: 20px 0 20px 20px;
+	border: 1px solid #dddddd;
+	}
+
+aside h3 {
+	color: #4aaaa5;
+	padding: 20px 0 20px 0;
+	border-bottom: 2px solid #cccccc;
+	margin: 0 20px 0 20px;
+	}
+
+#icons {
+	margin: 20px;
+	padding-bottom: 30px;
+}
+
+form {
+	margin: 20px;
+}
+
+input {
+	width: 100%;
+	height: 18px;
+	margin-bottom: 50px;
+}
+
+#message {
+	height: 200px;
+}
+
+#submitbutton {
+	width: 80px;
+	height: 30px;
+	background-color: #4aaaa5;
+	border: none;
+	color: #ffffff;
+	padding: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+
+}
